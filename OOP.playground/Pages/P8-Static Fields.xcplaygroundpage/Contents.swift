@@ -8,32 +8,36 @@ import Foundation
  To do this, we would like to add in a `population` counter in our `Animal` class, which keeps track of how many times an `Animal` has been instantiated. But this seems impossible, given what we know – all instance variables are unique to the _instance_ of the class, which means that such a variable wouldn't be able to count _across_ instances of a class.
  
  Enter `static` variables:
- 
-    class MyClass {
-        static var myCounter = 0
-        var myVar: String
-        
-        init(var: String) {
-            self.myVar = var
-        }
- 
-        func doStuff() {
-            MyClass.myCounter += 1
-            print(\(self.myVar): \(MyClass.myCounter))
-        }
+ */
+class MyClass {
+    static var myCounter = 0
+    var message: String
+    
+    init(message: String) {
+        self.message = message
     }
-    let one = MyClass("one")
-    let two = MyClass("two")
-    one.doStuff()
-    two.doStuff()
+
+    func doStuff() {
+        MyClass.myCounter += 1
+        print("\(self.message): \(MyClass.myCounter)")
+    }
+}
+/*:
+ In this example, we have an instance variable `message`, and a _static_ variable `myCounter`, initialized to `0`. After each call of `doStuff()`, the static variable is incremented, and is printed, along with the `message` instance variable. Note that difference in the syntax as well: `message` is accessed from within the class as `self.message`, while `myCounter` is accessed as `MyClass.myCounter`, signifying that the variable `myCounter` is _shared_ across the instances of the class.
+
+ The code below would print the following result. Can you explain why?
  
- In this example, we have an instance variable `myVar`, and a _static_ variable `myCounter`, initialized to `0`. After each call of `doStuff()`, the static variable is incremented, and is printed, along with the `myVar` instance variable. Note that difference in the syntax as well: `myVar` is accessed from within the class as `self.myVar`, while `myCounter` is accessed as `MyClass.myCounter`, signifying that the variable `myCounter` is _shared_ across the instances of the class.
+     one: 1
+     two: 2
  
- The code above would print the following result. Can you explain why?
- 
-    one: 1
-    two: 2
- 
+*/
+
+let one = MyClass(message: "one")
+let two = MyClass(message: "two")
+one.doStuff()
+two.doStuff()
+
+/*:
  Methods can be marked as `static`, too. For example, if we decided to add a method `test` to `MyClass`, you would call it as: `MyClass.test()`. You won't be able to access any instance variables from within a static method, though – this is because a static method is not tied to any given instance of the class.
  
  Note: You can actually use the keyword `class` in place of `static` when writing static methods. The difference is minute – a method marked with `class` allows one to _override_ the method implementation in a subclass, while a method marked with `static` does not allow this. You can read more about this at Apple's Swift documentation [here](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Methods.html).
@@ -46,12 +50,89 @@ import Foundation
 
 // Copy your Animal class here and modify it to automatically count population
 // Hint: Modify the initializer method to count the number of animals created
+class Animal {
+    // here, make yourself a new static variable!
+    
+    init(name: String) {
+        
+    }
+    
+    func eat(food: String) {
+        
+    }
+    
+    func sleep() {
+        
+    }
+}
+
+// Copy your Tiger class here
+class Tiger: Animal {
+    
+}
+
+// Copy your Bear class here
+class Bear: Animal {
+    
+}
+
+// Copy your Unicorn class here
+class Unicorn: Animal {
+    
+}
+
+// Copy your Giraffe class here
+class Giraffe: Animal {
+    
+}
+
+// Copy your Bee class here
+class Bee: Animal {
+    
+}
+
+// Copy your Zookeeper class here
+class Zookeeper {
+    init(name: String) {
+        // complete your init function
+    }
+    
+    func feedAnimals(animals: [Animal], food: String) {
+        // complete your feedAnimals function here.
+        
+    }
+}
 
 
+/*:
+ The following code is similar to the last one, except we add some more animals to our population, that aren't part of the array of animals getting fed. You should get the following output:
+ 
+     Zoe is feeding meat to 5 of 10 total animals
+     Tigger eats meat
+     YUM!!! Tigger wants more meat
+     Pooh eats meat
+     Pooh hibernates for 4 months
+     Rarity eats meat
+     Rarity sleeps in a cloud
+     YUCK!!! Gemma will not eat meat
+     YUCK!!! Stinger will not eat meat
+ */
 
-// Copy the rest of your code from the previous section here
+let animals: [Animal] = [
+    Tiger(name: "Tigger"),
+    Bear(name: "Pooh"),
+    Unicorn(name: "Rarity"),
+    Giraffe(name: "Gemma"),
+    Bee(name: "Stinger")
+]
+let unfedTiger = Tiger(name: "full Tiger")
+let unfedBear = Bear(name: "full Bear")
+let unfedUnicorn = Unicorn(name: "full Unicorn")
+let unfedGiraffe = Giraffe(name: "full Giraffe")
+let unfedBee = Bee(name: "full bee")
 
-
+let zookeeper = Zookeeper(name: "Zoe")
+zookeeper.feedAnimals(animals, food: "meat")
 
 /*:
  Congratulations! In this tutorial you learned about the basic principles of Object-Oriented Programming – how to create and use classes to organize data, how to use class inheritance, and the difference between static and instance variables and methods. OOP will definitely prove useful when you dive into writing more complex programs. See you then!

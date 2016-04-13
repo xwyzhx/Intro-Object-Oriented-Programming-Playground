@@ -1,6 +1,7 @@
 import Foundation
 //: [Previous](@previous)
 /*:
+ # A new animal: Bears!
  
  Zoe says your program is really helping her keep track of the tigers! As a result, Zoe has been promoted at the zoo. She's now in charge of tigers and bears, which means your program now needs to describe bear behaviors as well!
  
@@ -10,7 +11,34 @@ import Foundation
  
 */
 
-// Complete the Tiger and Bear classes and their sleep and eat methods below
+class Tiger {
+    // copy your Tiger class from the previous section!
+}
+
+class Bear {
+    // complete the Bear class here!
+}
+
+
+//let tiger = Tiger(name: "Tigger")
+//tiger.eat("meat")
+//let bear = Bear(name: "Pooh")
+//bear.eat("fish")
+//bear.eat("meat")
+
+/*:
+ When you're done, uncomment the above lines of code, and it should compile and output the following:
+ 
+     Tigger eats meat
+     YUM!!! Tigger wants more meat
+     Pooh eats fish
+     YUM!!! Pooh wants more fish
+     Pooh eats meat
+     Pooh hibernates for 4 months
+ 
+ */
+
+
 
 
 

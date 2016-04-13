@@ -1,7 +1,7 @@
 import Foundation
 
 /*:
- # Object-Oriented Programming
+ # Object-Oriented Programming: An Introduction
  
  In this tutorial, we're going to learn about _Object-Oriented Programming_ in Swift. What is that? It's a _programming paradigm_ based on the concept of "objects" – things that contain data, and methods that performn operations on those data.
  
@@ -17,6 +17,7 @@ import Foundation
 
     Tigger sleeps for 8 hours
  
+ To check your code, you can bring up the console by pressing ⇧⌘Y. Your output should get printed there!
 */
 
 // Complete the sleep function below

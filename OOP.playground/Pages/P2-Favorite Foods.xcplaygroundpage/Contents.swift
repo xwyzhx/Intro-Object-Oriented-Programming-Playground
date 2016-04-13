@@ -2,6 +2,8 @@ import Foundation
 
 //: [Previous](@previous)
 /*:
+ # Favorite Foods
+ 
  Great! Now, you'll write another function and use an if statement. We'll also use a variable to keep track of a tiger's favorite food. The variable is named `favoriteFood` and is already set up for you in the starter code below.
  
  A side note: we refer to the `favoriteFood` variable as being a "global" variable, since it is in the _outermost scope_ of the program – as opposed to it being inside a function, which would make the variable in "function scope," or inside a class, which would make it in "class scope." We'll talk more about that last one later.
@@ -27,7 +29,10 @@ func sleep(name: String) {
 
 }
 
-// Write your eat function here
+func eat(name: String, food: String) {
+    // Write your eat function here
+}
 
+eat("Tigger", food: "meat")
 
 //: [Next](@next)
