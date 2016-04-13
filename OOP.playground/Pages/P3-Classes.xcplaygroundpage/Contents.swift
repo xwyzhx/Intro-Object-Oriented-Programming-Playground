@@ -82,6 +82,8 @@ let tiger = Tiger(name: "Tigger")
 tiger.eat("meat")
 
 /*:
+ ## Testing
+ 
  When you're done, check your output. It should read as follows:
  
      Tigger eats meat

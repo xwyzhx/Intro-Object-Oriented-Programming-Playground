@@ -87,25 +87,10 @@ class Bee: Animal {
 }
 
 
-//let tiger = Tiger(name: "Tigger")
-//tiger.eat("meat")
-//let bear = Bear(name: "Pooh")
-//bear.eat("fish")
-//bear.eat("meat")
-//let unicorn = Unicorn(name: "Rarity")
-//unicorn.eat("marshmallows")
-//unicorn.sleep()
-//let giraffe = Giraffe(name: "Gemma")
-//giraffe.eat("meat")
-//giraffe.eat("leaves")
-//giraffe.sleep()
-//let bee = Bee(name: "Stinger")
-//bee.eat("ice cream")
-//bee.eat("pollen")
-//bee.sleep()
-
 /*:
- When you're done, uncomment the above lines of code, and it should compile and output the following:
+ ## Testing
+
+ When you're done, uncomment the below lines of code, and it should compile and output the following:
  
      Tigger eats meat
      YUM!!! Tigger wants more meat
@@ -126,6 +111,23 @@ class Bee: Animal {
      Stinger never sleeps
  */
 
+
+//let tiger = Tiger(name: "Tigger")
+//tiger.eat("meat")
+//let bear = Bear(name: "Pooh")
+//bear.eat("fish")
+//bear.eat("meat")
+//let unicorn = Unicorn(name: "Rarity")
+//unicorn.eat("marshmallows")
+//unicorn.sleep()
+//let giraffe = Giraffe(name: "Gemma")
+//giraffe.eat("meat")
+//giraffe.eat("leaves")
+//giraffe.sleep()
+//let bee = Bee(name: "Stinger")
+//bee.eat("ice cream")
+//bee.eat("pollen")
+//bee.sleep()
 
 
 //: [Next](@next)

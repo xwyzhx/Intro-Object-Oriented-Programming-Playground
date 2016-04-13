@@ -20,14 +20,11 @@ class Bear {
 }
 
 
-//let tiger = Tiger(name: "Tigger")
-//tiger.eat("meat")
-//let bear = Bear(name: "Pooh")
-//bear.eat("fish")
-//bear.eat("meat")
 
 /*:
- When you're done, uncomment the above lines of code, and it should compile and output the following:
+ ## Testing
+ 
+ When you're done, uncomment the below lines of code, and it should compile and output the following:
  
      Tigger eats meat
      YUM!!! Tigger wants more meat
@@ -38,6 +35,11 @@ class Bear {
  
  */
 
+//let tiger = Tiger(name: "Tigger")
+//tiger.eat("meat")
+//let bear = Bear(name: "Pooh")
+//bear.eat("fish")
+//bear.eat("meat")
 
 
 

@@ -71,6 +71,8 @@ class Zookeeper {
 }
 
 /*:
+ ## Testing
+
  The following code will create one of each animal, and pass it off to a Zookeeper's `feedAnimals` function, with some `"meat"`. You should get the following output:
  
      Tigger eats meat

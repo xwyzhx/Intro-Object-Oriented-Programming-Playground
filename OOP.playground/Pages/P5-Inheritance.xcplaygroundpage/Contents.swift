@@ -110,14 +110,10 @@ class Bear: Animal {
     }
 }
 
-//let tiger = Tiger(name: "Tigger")
-//tiger.eat("meat")
-//let bear = Bear(name: "Pooh")
-//bear.eat("fish")
-//bear.eat("meat")
-
 /*:
- When you're done, uncomment the above lines of code, and it should compile and output the same thing as before:
+ ## Testing
+
+ When you're done, uncomment the below lines of code, and it should compile and output the same thing as before:
  
      Tigger eats meat
      YUM!!! Tigger wants more meat
@@ -127,6 +123,12 @@ class Bear: Animal {
      Pooh hibernates for 4 months
  
  */
+
+//let tiger = Tiger(name: "Tigger")
+//tiger.eat("meat")
+//let bear = Bear(name: "Pooh")
+//bear.eat("fish")
+//bear.eat("meat")
 
 /*:
  Copy your code for the next section!

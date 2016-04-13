@@ -105,6 +105,8 @@ class Zookeeper {
 
 
 /*:
+ ## Testing
+ 
  The following code is similar to the last one, except we add some more animals to our population, that aren't part of the array of animals getting fed. You should get the following output:
  
      Zoe is feeding meat to 5 of 10 total animals
@@ -135,6 +137,14 @@ let zookeeper = Zookeeper(name: "Zoe")
 zookeeper.feedAnimals(animals, food: "meat")
 
 /*:
- Congratulations! In this tutorial you learned about the basic principles of Object-Oriented Programming – how to create and use classes to organize data, how to use class inheritance, and the difference between static and instance variables and methods. OOP will definitely prove useful when you dive into writing more complex programs. See you then!
+ ## Conclusion
+ 
+ Congratulations! In this tutorial you learned about the basic principles of Object-Oriented Programming – namely:
+ 
+ - how to leverage the abstration of classes in order to organize data
+ - how to use class inheritance in order to make use of overlapping or similar behaviors
+ - the difference between static and instance variables and methods
+ 
+ Object-Oriented Programming is the basis of many complex programs. You'll be using these abstractions as core principles as you delve into many of your programming projects.
  */
 
