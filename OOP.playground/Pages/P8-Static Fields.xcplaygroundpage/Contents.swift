@@ -141,7 +141,7 @@ zookeeper.feedAnimals(animals, food: "meat")
  
  Congratulations! In this tutorial you learned about the basic principles of Object-Oriented Programming – namely:
  
- - how to leverage the abstration of classes in order to organize data
+ - how to leverage the abstraction of classes in order to organize data
  - how to use class inheritance in order to make use of overlapping or similar behaviors
  - the difference between static and instance variables and methods
  
