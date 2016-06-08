@@ -1,9 +1,10 @@
-import Foundation
 //: [Previous](@previous)
 /*:
  # Even more animals!
  
  Today is the day! Zoe now keeps track of giraffes, bees, AND unicorns, so she needs 3 more classes of animals added to the program. Luckily, we're prepared because we have a general Animal class with typical animal behaviors.
+ 
+ - note: Copy your full `Animal`, `Tiger`, and `Bear` classes from the previous page
  
  */
 
@@ -34,9 +35,12 @@ class Bear: Animal {
 }
 
 /*:
- We're going to create 3 more subclasses of `Animal`: `Bee`, `Giraffe`, and `Unicorn`. Each class should set their own value for `favoriteFood`, and should override the `sleep` or `eat` methods, or both.
  
- In case you didn't know, unicorns love to eat marshmallows and they sleep in clouds. In other words, their `favoriteFood` is `"marshmallows"` and calling the `sleep` method on a `Unicorn` should print `"<name> sleeps in a cloud"`. We've given you some hints in the provided code below.
+ # Unicorns
+ 
+ We're going to create 3 more subclasses of `Animal`: `Bee`, `Giraffe`, and `Unicorn`. Each class should set their own value for `favoriteFood`, and should override the `sleep` or `eat` methods, or both as appropiate.
+ 
+ - callout(Challenge): Implement the `Unicorn` class as a subclass of `Animal`. In case you didn't know, unicorns love to eat marshmallows and they sleep in clouds. In other words, their `favoriteFood` is `"marshmallows"` and calling the `sleep` method on a `Unicorn` should print `"<name> sleeps in a cloud"`. We've given you some hints in the provided code below.
  */
 
 // Implement the Unicorn class here as a subclass of Animal
@@ -58,7 +62,10 @@ class Unicorn: Animal {
 
 /*:
  
- Giraffes are vegetarian, so they only eat leaves. If you feed `"leaves"` to a `Giraffe`, they will happily tell you `"YUM!!! <name> wants more leaves"` (just like how `Tiger`s respond to `"meat"`). However, if you feed them anything else, they will shout `"YUCK!!! <name> will not eat <food>"` to let you know they don't like what you fed them. You'll need to override the `eat` method for the Giraffe class to model this behavior. In some cases, you might be able to call the superclass's implementation of the `eat` method to avoid having to recode the parts of this behavior that's similar to your generic `Animal` class.
+ # Giraffes
+ 
+ - callout(Challenge): Implement the `Giraffe` class as a subclass of `Animal`. Giraffes are vegetarian, so they only eat leaves. If you feed `"leaves"` to a `Giraffe`, they will happily tell you `"YUM!!! <name> wants more leaves"` (just like how `Tiger`s respond to `"meat"`). However, if you feed them anything else, they will shout `"YUCK!!! <name> will not eat <food>"` to let you know they don't like what you fed them. You'll need to override the `eat` method for the Giraffe class to model this behavior. In some cases, you might be able to call the superclass's implementation of the `eat` method to avoid having to recode the parts of this behavior that's similar to your generic `Animal` class.
+ 
  */
 
 // Implement the Giraffe class here as a subclass of Animal
@@ -77,7 +84,10 @@ class Giraffe: Animal {
 
 
 /*:
- Similarly, bees only eat pollen and will complain in the same way as giraffes if you feed a `Bee` anything other than `"pollen"`. Additionally, bees never sleep, so if you call the `sleep` method on the Bee class, it should print `"<name> never sleeps"` instead of the standard sleep behavior.
+ 
+ # Bees
+ 
+ - callout(Challenge): Implement the `Bee` class as a subclass of `Animal`. Bees only eat pollen and will complain in the same way as giraffes if you feed a `Bee` anything other than `"pollen"`. Additionally, bees never sleep, so if you call the `sleep` method on the Bee class, it should print `"<name> never sleeps"` instead of the standard sleep behavior.
  */
 
 // Implement the Bee class here as a subclass of Animal
@@ -89,8 +99,8 @@ class Bee: Animal {
 
 /*:
  ## Testing
-
- When you're done, uncomment the below lines of code, and it should compile and output the following:
+ 
+ This time, you'll be in charge of writing your own test code! It should output exactly this:
  
      Tigger eats meat
      YUM!!! Tigger wants more meat
@@ -109,25 +119,17 @@ class Bee: Animal {
      Stinger eats pollen
      YUM!!! Stinger wants more pollen
      Stinger never sleeps
+ 
+ - callout(Hint): The zoo currently has one animal of each type. There is:
+    - A `Tiger` named Tigger
+    - A `Bear` named Pooh
+    - A `Unicorn` named Rarity
+    - A `Giraffe` named Gemma
+    - A `Bee` named Stinger
+ 
  */
 
 
-//let tiger = Tiger(name: "Tigger")
-//tiger.eat("meat")
-//let bear = Bear(name: "Pooh")
-//bear.eat("fish")
-//bear.eat("meat")
-//let unicorn = Unicorn(name: "Rarity")
-//unicorn.eat("marshmallows")
-//unicorn.sleep()
-//let giraffe = Giraffe(name: "Gemma")
-//giraffe.eat("meat")
-//giraffe.eat("leaves")
-//giraffe.sleep()
-//let bee = Bee(name: "Stinger")
-//bee.eat("ice cream")
-//bee.eat("pollen")
-//bee.sleep()
 
 
 //: [Next](@next)
