@@ -19,8 +19,9 @@
  
  should print this output exactly:
  
-     Tigger eats meat
-     YUM!!! Tigger wants more meat
+    Tigger eats meat
+    YUM!!! Tigger wants more meat
+    Tigger sleeps for 8 hours
  
  */
 
@@ -35,5 +36,6 @@ func eat(name: String, food: String) {
 }
 
 eat("Tigger", food: "meat")
+eat("Tigger", food: "kibble")
 
 //: [Next](@next)

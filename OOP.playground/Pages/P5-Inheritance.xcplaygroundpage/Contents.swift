@@ -5,7 +5,7 @@
  
  Zoe got promoted AGAIN! She just found out that she's getting assigned three more animals tomorrow: Giraffes, Bees, and... Unicorns! What kind of petting zoo is this, anyways?!
  
- Before Zoe asks you for three new classes tomorrow, let's rewrite our code to save us some time. Create a class called `Animal`, which will act as our _superclass_ (we'll explain this in a moment). `Animal` should contain both instance variables (`name` and `favoriteFood`, in case you need a reminder). The initializer method should take two arguments that sets the value of both `name` and `favoriteFood`. Our `eat` and `sleep` methods should be exactly the same as the Tiger class you wrote in Problem 3.
+ Before Zoe asks you for three new classes tomorrow, let's rewrite our code to save us some time. Create a class called `Animal`, which will act as our _superclass_ (we'll explain this in a moment). `Animal` should contain both instance variables (`name` and `favoriteFood`, in case you need a reminder). The initializer method should take two arguments that sets the value of both `name` and `favoriteFood`. Our `eat` and `sleep` methods should be exactly the same as the `Tiger` class you wrote in Problem 3.
  
  */
 class Animal {
@@ -66,7 +66,7 @@ class ExampleSubclass: ExampleSuperclass {
 }
 /*:
  
- There's a few different things going on here. First all, the subclass definition: `class ExampleSubclass: ExampleSuperclass` – this sets up the inheritance, letting `ExampleSubclass` _inherit_ all the instance variables and methods of `ExampleSuperclass`, getting access to it all. So in this example, `ExampleSubclass` has access to not only its instance variable `secretMessage`, but also `message` from its superclass.
+ There's a few different things going on here. First, the subclass definition: `class ExampleSubclass: ExampleSuperclass` – this sets up the inheritance, letting `ExampleSubclass` _inherit_ all the instance variables and methods of `ExampleSuperclass`, getting access to it all. So in this example, `ExampleSubclass` has access to not only its instance variable `secretMessage`, but also `message` from its superclass.
  
  */
 let superclassInstance = ExampleSuperclass(message: "Hello Make School student.")
@@ -149,10 +149,10 @@ class Bear: Animal {
  
  */
 
-//let tiger = Tiger(name: "Tigger")
-//tiger.eat("meat")
-//let bear = Bear(name: "Pooh")
-//bear.eat("fish")
-//bear.eat("meat")
+//let tigger = Tiger(name: "Tigger")
+//tigger.eat("meat")
+//let pooh = Bear(name: "Pooh")
+//pooh.eat("fish")
+//pooh.eat("meat")
 
 //: [Next](@next)

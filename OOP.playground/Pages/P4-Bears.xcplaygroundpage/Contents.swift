@@ -28,22 +28,25 @@ class Bear {
  
  When you're done, uncomment the below lines of code, and it should output the following:
  
-     Tigger eats meat
-     YUM!!! Tigger wants more meat
-     Pooh eats fish
-     YUM!!! Pooh wants more fish
-     Pooh eats meat
-     Pooh hibernates for 4 months
+    Tigger eats meat
+    YUM!!! Tigger wants more meat
+    Tigger eats kibble
+    Tigger sleeps for 8 hours
+    Pooh eats fish
+    YUM!!! Pooh wants more fish
+    Pooh eats meat
+    Pooh hibernates for 4 months
  
  - callout(Hint): Refer to the previous page if you need any help!
  
  */
 
-//let tiger = Tiger(name: "Tigger")
-//tiger.eat("meat")
-//let bear = Bear(name: "Pooh")
-//bear.eat("fish")
-//bear.eat("meat")
+//let tigger = Tiger(name: "Tigger")
+//tigger.eat("meat")
+//tigger.eat("kibble")
+//let pooh = Bear(name: "Pooh")
+//pooh.eat("fish")
+//pooh.eat("meat")
 
 
 

@@ -147,16 +147,19 @@ class Tiger {
     }
 }
 
-let tiger = Tiger(name: "Tigger")
-tiger.eat("meat")
+let tigger = Tiger(name: "Tigger")
+tigger.eat("meat")
+tigger.eat("kibble")
 
 /*:
  # Testing
  
  When you're done, check your output. It should read as follows:
  
-     Tigger eats meat
-     YUM!!! Tigger wants more meat
+    Tigger eats meat
+    YUM!!! Tigger wants more meat
+    Tigger eats kibble
+    Tigger sleeps for 8 hours
  
  Copy your `Tiger` class so you can use it in the next section.
 

@@ -53,7 +53,7 @@ class Bee: Animal {
  
  # Zookeeper
  
- Great! Now, we're ready to create a `Zookeeper` class that contains a `name` instance variable and an initializer method that sets `name` using an argument. A zookeeper needs to feed many animals each day, so let's add a `feedAnimals` method, which should take two arguments: `animals` – an array of `Animal`s, and `food` – a string. This method should first print `"<name> is feeding <food> to <animals.length> animals"`, then iterate over the array of animals and call each animal's `eat` method, passing the value of `food` as the argument.
+ Great! Now, we're ready to create a `Zookeeper` class that contains a `name` instance variable and an initializer method that sets `name` using an argument. A zookeeper needs to feed many animals each day, so let's add a `feedAnimals` method, which should take two arguments: `animals` – an array of `Animal`s, and `food` – a string. This method should first print `"<name> is feeding <food> to <animals.count> animals"`, then iterate over the array of animals and call each animal's `eat` method, passing the value of `food` as the argument.
  
  Finally, call this `feedAnimals` method, using an array containing an instance of each animal, and your own favorite food.
  
@@ -79,7 +79,7 @@ class Zookeeper {
 /*:
  ## Testing
  
- Again, you'll be in charge of writing your own test code! It should output exactly this:
+ The test code below should output exactly this:
  
      Tigger eats meat
      YUM!!! Tigger wants more meat
