@@ -39,6 +39,8 @@ class Example {
  
  To create a new object, we put the class name followed by parentheses. This calls the _default initializer_ (that `init()` block of code that looks like a function). _Initializers_ are used to set the values of all the variables associated with a class. As you can see above, it sets `myVariable` to `"Make School learns Object-Oriented Programming!"`.
  
+ - important: Initializers _must_ set all of the object's variables. You _will_ get an error if you do not set them all in the intializer!
+ 
  */
 let objectCreatedFromExample = Example()
 let anotherExampleObject = Example()
