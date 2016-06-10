@@ -2,7 +2,7 @@
  
  # Object-Oriented Programming: An Introduction
  
- In this tutorial, we're going to learn about _Object-Oriented Programming_ in Swift. What is that? It's a _programming paradigm_ based on the concept of "objects" – things that contain data, and methods that performn operations on those data.
+ In this tutorial, we're going to learn about _Object-Oriented Programming_ in Swift. What is that? It's a _programming paradigm_ based on the concept of "objects" – things that contain data, and methods that perform operations on those data.
  
  That sounds pretty vague. But worry not! We will start what we already know in Swift – namely, functions, variables, etc. – and build our object-oriented program from there. We've been hinting at it throughout the course -- it's time to dive right in!
  

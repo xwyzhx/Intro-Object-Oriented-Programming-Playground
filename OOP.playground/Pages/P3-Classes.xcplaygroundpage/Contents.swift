@@ -55,7 +55,7 @@ anotherExampleObject.myVariable
  
  Both object's `myVariable` property currently contain `"Make School learns Object-Oriented Programming!"`. What happens if we change one of them? Do both change? We'll use dot syntax with an assignment operator (`=`) to update it as if it were a normal variable.
  
- - important: You'll notice that in the above example, `myVariable` was set to the value `"Make School learns Object-Oriented Programming!"` inside of the `init()` function, or the initializer. Because `myVariable` was declared with `var`, you can update it's value for _each_ of your instances!
+ - important: You'll notice that in the above example, `myVariable` was set to the value `"Make School learns Object-Oriented Programming!"` inside of the `init()` function, or the initializer. Because `myVariable` was declared with `var`, you can update its value for _each_ of your instances!
  
  */
 objectCreatedFromExample.myVariable = "Object-oriented Programming with Make School is great!"
@@ -88,7 +88,7 @@ objectCreatedFromExample.myMethod()
 anotherExampleObject.myMethod()
 /*:
  
- These method calls should have printed out a message to the console below. Functions can do anything methods can do, they just need to be called with dot syntax on an instance (object). They can have parameters and return values and are defined with the normal function syntax.
+ These method calls should have printed out a message to the console below. Methods can do anything functions can do, they just need to be called with dot syntax on an instance (object). They can have parameters and return values and are defined with the normal function syntax.
  
  # Passing data into initializers
  
