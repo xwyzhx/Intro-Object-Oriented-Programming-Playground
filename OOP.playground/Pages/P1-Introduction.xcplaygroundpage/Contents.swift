@@ -6,7 +6,7 @@
  
  That sounds pretty vague. But worry not! We will start what we already know in Swift – namely, functions, variables, etc. – and build our object-oriented program from there. We've been hinting at it throughout the course -- it's time to dive right in!
  
- - callout(Challenge): First, write a function named sleep that takes an argument name. This function should print "`<name> sleeps for 8 hours`" each time it's called. Be sure to print this exact format.
+ - callout(Challenge): First, write a function named `sleep` that takes an argument `name`. This function should print "`<name> sleeps for 8 hours`" each time it's called. Be sure to print this exact format.
  
  This function call:
  
