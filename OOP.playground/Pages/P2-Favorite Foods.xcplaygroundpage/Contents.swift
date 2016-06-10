@@ -11,7 +11,7 @@
  
  - callout(Challenge): Write a function named `eat` that takes two arguments: `name` and `food`. This function should print "`<name> eats <food>`" each time it's called.
  
- But wait – there's more! The `eat` function should check if the food argument is equal to the global variable `favoriteFood`. If the values are equal, the function should then also print "`YUM!!! <name> wants more <food>`". _If they are not equal, the eat function should call the sleep function you wrote in Problem 1 (you can copy it from the previous page) and pass the value of `name` as an argument to sleep._
+    But wait – there's more! The `eat` function should check if the food argument is equal to the global variable `favoriteFood`. If the values are equal, the function should then also print "`YUM!!! <name> wants more <food>`". _If they are not equal, the eat function should call the sleep function you wrote in Problem 1 (you can copy it from the previous page) and pass the value of `name` as an argument to sleep._
  
  This function call:
  

@@ -5,7 +5,7 @@
  
  Zoe got promoted AGAIN! She just found out that she's getting assigned three more animals tomorrow: Giraffes, Bees, and... Unicorns! What kind of petting zoo is this, anyways?!
  
- Before Zoe asks you for three new classes tomorrow, let's rewrite our code to save us some time. Create a class called `Animal`, which will act as our _superclass_ (we'll explain this in a moment). `Animal` should contain both instance variables (`name` and `favoriteFood`, in case you need a reminder). The initializer method should take 2 arguments that sets the value of both `name` and `favoriteFood`. Our `eat` and `sleep` methods should be exactly the same as the Tiger class you wrote in Problem 3.
+ Before Zoe asks you for three new classes tomorrow, let's rewrite our code to save us some time. Create a class called `Animal`, which will act as our _superclass_ (we'll explain this in a moment). `Animal` should contain both instance variables (`name` and `favoriteFood`, in case you need a reminder). The initializer method should take two arguments that sets the value of both `name` and `favoriteFood`. Our `eat` and `sleep` methods should be exactly the same as the Tiger class you wrote in Problem 3.
  
  */
 class Animal {

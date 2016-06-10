@@ -21,6 +21,8 @@ class Example {
 }
 /*:
  
+ - important: The keyword `self` refers to the current object's scope. Inside of the initializer (and also inside any functions you write in your class), you refer to your class-scope variables via the `self.myVariable` syntax. This signifies that that variable is unique to the _instance_ of the class – which means that there are separate `myVariable`s for _each_ instance of the class that you _instantiate_ (or create).
+ 
  # What's going on?
  
  The above code creates a new class called `Example`. This class has:
@@ -77,8 +79,6 @@ anotherExampleObject.myVariable
 
 /*:
  
- - important: Inside of the initializer (and also inside any functions you write in your class), you refer to your class-scope variables via the `self.myVariable` syntax. This signifies that that variable is unique to the _instance_ of the class – which means that there are separate `myVariable`s for _each_ instance of the class that you _instantiate_ (or create).
- 
  # Methods
  
  Functions created within classes are called _methods_. They are called on an instance (object) using the same dot syntax that properties use!
@@ -104,7 +104,7 @@ class AnotherExample {
 }
 /*:
  
- Then, you can initialize your class like this:
+ Now, you can initialize your class like this:
  
  */
 let AnotherExampleObject = AnotherExample(value: "Woah! OOP is pretty powerful!")
