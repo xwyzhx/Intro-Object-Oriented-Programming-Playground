@@ -11,7 +11,8 @@
 // Copy your Animal class here
 class Animal {
     
-    init(name: String) {
+    init(name: String, favoriteFood: String) {
+        // put your initializer content here
         
     }
     
@@ -44,14 +45,12 @@ class Bear: Animal {
  */
 
 // Implement the Unicorn class here as a subclass of Animal
-// Hint: Override the initializer and sleep methods
+// Hint: Implement the initializer method and override the eat method
 class Unicorn: Animal {
     
-    override init(name: String) {
-        // set your favorite food here...
-        
-        // now, we call the superclass init method to set the name variable.
-        super.init(name: name)
+    init(name: String) {
+        // don't forget to correct the call to the superclass initializer!
+        super.init(name: "", favoriteFood: "")
     }
     
     override func sleep() {
@@ -72,8 +71,9 @@ class Unicorn: Animal {
 // Hint: Implement the initializer method and override the eat method
 class Giraffe: Animal {
     
-    override init(name: String) {
-        super.init(name: name)
+    init(name: String) {
+        // don't forget to correct the call to the superclass initializer!
+        super.init(name: "", favoriteFood: "")
     }
     
     override func eat(food: String) {

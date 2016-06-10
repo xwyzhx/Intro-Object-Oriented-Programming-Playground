@@ -11,7 +11,7 @@
 class Animal {
     // Put your instance variables here
     
-    init(name: String) {
+    init(name: String, favoriteFood: String) {
         // put your initializer content here
         
     }
@@ -105,19 +105,16 @@ let subclassInstance = ExampleSubclass(message: "Hi there Make School student. W
  
  - callout(Hint): Don't forget to use the super keyword like in `ExampleSubclass`!
  
- The `Bear` class should also inherit from the `Animal` class and have a similar initializer to the `Tiger` class, except that it should set the value  of `favoriteFood` to `"fish"` because all bears like fish. However, to capture bears' different sleeping behavior, you'll need to __override__ the `sleep` method so that it prints the correct message (refer to Problem 4 if you need a reminder what the `sleep` method should print).
+ The `Bear` class should also inherit from the `Animal` class and have a similar initializer to the `Tiger` class, except that it should use a value  of `"fish"` for `favoriteFood` because all bears like fish. However, to capture bears' different sleeping behavior, you'll need to __override__ the `sleep` method so that it prints the correct message (refer to Problem 4 if you need a reminder what the `sleep` method should print).
  
  */
 
 // Complete the Tiger and Bear subclasses below
 class Tiger: Animal {
     
-    // this is your overridden initializer
-    override init(name: String) {
-        // set your favorite food here
-        
-        // don't forget a call to the superclass initializer!
-        super.init(name: name)
+    init(name: String) {
+        // don't forget to correct the call to the superclass initializer!
+        super.init(name: "", favoriteFood: "")
     }
     
 }
