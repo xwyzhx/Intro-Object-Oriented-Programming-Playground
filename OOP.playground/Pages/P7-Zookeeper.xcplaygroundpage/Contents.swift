@@ -81,6 +81,7 @@ class Zookeeper {
  
  The test code below should output exactly this:
  
+     ZoeBot is feeding meat to 5 animals
      Tigger eats meat
      YUM!!! Tigger wants more meat
      Pooh eats meat

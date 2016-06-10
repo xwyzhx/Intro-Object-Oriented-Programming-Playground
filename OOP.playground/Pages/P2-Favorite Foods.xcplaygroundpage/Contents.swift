@@ -21,6 +21,7 @@
  
     Tigger eats meat
     YUM!!! Tigger wants more meat
+    Tigger eats kibble
     Tigger sleeps for 8 hours
  
  */

@@ -63,7 +63,7 @@ class Unicorn: Animal {
  
  # Giraffes
  
- - callout(Challenge): Implement the `Giraffe` class as a subclass of `Animal`. Giraffes are vegetarian, so they only eat leaves. If you feed `"leaves"` to a `Giraffe`, they will happily tell you `"YUM!!! <name> wants more leaves"` (just like how `Tiger`s respond to `"meat"`). However, if you feed them anything else, they will shout `"YUCK!!! <name> will not eat <food>"` to let you know they don't like what you fed them. You'll need to override the `eat` method for the Giraffe class to model this behavior. In some cases, you might be able to call the superclass's implementation of the `eat` method to avoid having to recode the parts of this behavior that's similar to your generic `Animal` class.
+ - callout(Challenge): Implement the `Giraffe` class as a subclass of `Animal`. Giraffes are vegetarian, so they only eat leaves. If you feed `"leaves"` to a `Giraffe`, they will happily tell you `"YUM!!! <name> wants more leaves"` after eating them (just like how `Tiger`s respond to `"meat"`) _and then `sleep`_. However, if you feed them anything else, they will shout `"YUCK!!! <name> spits out <food>"` to let you know they don't like what you fed them. You'll need to override the `eat` method for the Giraffe class to model this behavior. In some cases, you might be able to call the superclass's implementation of the `eat` method to avoid having to recode the parts of this behavior that's similar to your generic `Animal` class.
  
  */
 
@@ -87,7 +87,7 @@ class Giraffe: Animal {
  
  # Bees
  
- - callout(Challenge): Implement the `Bee` class as a subclass of `Animal`. Bees only eat pollen and will complain in the same way as giraffes if you feed a `Bee` anything other than `"pollen"`. Additionally, bees never sleep, so if you call the `sleep` method on the Bee class, it should print `"<name> never sleeps"` instead of the standard sleep behavior.
+ - callout(Challenge): Implement the `Bee` class as a subclass of `Animal`. Bees only eat pollen and will complain in the same way as giraffes if you feed a `Bee` anything other than `"pollen"` _and then call `sleep`_. Additionally, bees never sleep, so if you call the `sleep` method on the Bee class, it should print `"<name> never sleeps"` instead of the standard sleep behavior.
  */
 
 // Implement the Bee class here as a subclass of Animal

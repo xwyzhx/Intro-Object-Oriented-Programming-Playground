@@ -101,9 +101,9 @@ let subclassInstance = ExampleSubclass(message: "Hi there Make School student. W
 
  # Back to the animals
  
- Now, let's implement these new ideas for our animals! Modify your `Bear` and `Tiger` classes so that they are subclasses of `Animal`. `Tiger` should inherit fully from the Animal class. This means that Tiger will automatically contain the eat and sleep methods defined in Animal. To complete the `Tiger` class, all you need to write is an initializer method that takes a name argument and passes it off to the `Animal` initializer, along with a `favoriteFood` of `"meat"`, because remember: all tigers like meat. :-)
+ Now, let's implement these new ideas for our animals! Modify your `Bear` and `Tiger` classes so that they are subclasses of `Animal`. `Tiger` should inherit fully from the `Animal` class. This means that `Tiger` will automatically contain the `eat` and `sleep` methods defined in `Animal`. To complete the `Tiger` class, all you need to write is an initializer method that takes a name argument and passes it off to the `Animal` initializer, along with a `favoriteFood` of `"meat"`, because remember: all tigers like meat. :-)
  
- - callout(Hint): Don't forget to use the super keyword like in `ExampleSubclass`!
+ - callout(Hint): Don't forget to use the `super` keyword like in `ExampleSubclass`!
  
  The `Bear` class should also inherit from the `Animal` class and have a similar initializer to the `Tiger` class, except that it should use a value  of `"fish"` for `favoriteFood` because all bears like fish. However, to capture bears' different sleeping behavior, you'll need to __override__ the `sleep` method so that it prints the correct message (refer to Problem 4 if you need a reminder what the `sleep` method should print).
  

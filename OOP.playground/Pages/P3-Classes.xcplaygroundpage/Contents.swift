@@ -119,7 +119,7 @@ AnotherExampleObject.myVariable
  
  # Back to Tigers!
  
- - callout(Challenge): We have provided you with an unfinished `Tiger` class below. When completed, this class should contain two instance variables: `name` and `favoriteFood`.  This class should also contain `eat` and `sleep` methods similar to the functions you wrote in Problems 1 and 2 (you can copy them from the previous page), but they need to be modified slightly.
+ - callout(Challenge): We have provided you with an unfinished `Tiger` class below. When completed, this class should contain two instance variables: `name` and `favoriteFood` (both with type `String`).  This class should also contain `eat` and `sleep` methods similar to the functions you wrote in Problems 1 and 2 (you can copy them from the previous page), but they need to be modified slightly.
  
     Instead of taking a tiger's `name` as an argument, the `sleep` method should use the `name` _instance variable_ when it prints "`<name> sleeps for 8 hours`".  Similarly, the `eat` method should use the `name` _instance variable_, but should take a `food` argument, because a tiger doesn't know what food it's going to eat until a zookeeper feeds it.
  
