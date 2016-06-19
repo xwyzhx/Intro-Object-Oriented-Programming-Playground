@@ -17,14 +17,14 @@ class AnotherExampleClass {
         self.message = message
     }
     
-    func checkTheCounter() {
+    func increaseAndCheckTheCounter() {
         AnotherExampleClass.counter += 1
         print("\(self.message) \(AnotherExampleClass.counter)!")
     }
 }
 /*:
  
- In this example, we have an instance variable `message`, and a _static_ property `counter`, initialized to `8999`. After each call of `checkTheCounter()`, the type variable is incremented, and is printed, along with the `message` instance variable. Note that difference in the syntax as well: `message` is accessed from within the class as `self.message`, while `counter` is accessed as `AnotherExampleClass.counter`, signifying that the variable `counter` is _shared_ across the entire type `AnotherExampleClass`.
+ In this example, we have an instance variable `message`, and a _static_ property `counter`, initialized to `8999`. After each call of `increaseAndCheckTheCounter()`, the type variable is incremented, and is printed, along with the `message` instance variable. Note that difference in the syntax as well: `message` is accessed from within the class as `self.message`, while `counter` is accessed as `AnotherExampleClass.counter`, signifying that the variable `counter` is _shared_ across the entire type `AnotherExampleClass`.
  
  The code below prints the following result. Can you explain why?
  
@@ -34,15 +34,15 @@ class AnotherExampleClass {
  */
 let instanceOne = AnotherExampleClass(message: "What does your counter say?")
 let instanceTwo = AnotherExampleClass(message: "That can't be! It says... it's...")
-instanceOne.checkTheCounter()
-instanceTwo.checkTheCounter()
+instanceOne.increaseAndCheckTheCounter()
+instanceTwo.increaseAndCheckTheCounter()
 /*:
  
  # Type methods
  
  Methods can be marked as `static`, too. For example, if we subclassed `AnotherExampleClass` to create `CrushingExampleClass` and decided to add a method `crushTheCounter` to `CrushingExampleClass`, you would call it as: `CrushingExampleClass.crushTheCounter()`. You won't be able to access any instance variables from within a type method, though – this is because a type method is not tied to any given instance of the class.
  
- - callout(Try it out!): Add a call to `instanceThree.checkTheCounter()` and `CrushingExampleClass.crushTheCounter()` below to see it in action!
+ - callout(Try it out!): Add a call to `instanceThree.increaseAndCheckTheCounter()` and `CrushingExampleClass.crushTheCounter()` below to see it in action!
 
  
  */
