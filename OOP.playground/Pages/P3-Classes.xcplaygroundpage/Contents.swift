@@ -4,7 +4,7 @@
  
  Your friend Zoe, the zookeeper, has seen the code you wrote, and thinks it could help her. She says that the eat function you wrote in Problem 2 perfectly describes tigers. Let's write a small program to help Zoe keep track of her tigers and their eating and sleeping habits. This time we'll make a `Tiger` class! But first, let's talk about what classes and objects are...
  
- _Classes_ are the main way in which you can encapsulate (or group together) different variables and functions, as being part of one single _object_. _Classes_ create a blueprint for outputting new objects! You can declare a class like this:
+ _Classes_ are the main way in which you can encapsulate (or group together) different variables and functions, as being part of one single _object_. _Classes_ create a blueprint for outputting new objects (we'll talk about objects in just a moment)! You can declare a class like this:
  
  */
 class Example {
@@ -34,7 +34,7 @@ class Example {
  
  # Initializers and creating new objects from a class
  
- Now that we have defined the `Example` class, we can use it to create new _objects_ and save them to variables! These objects belong to a new, custom data type called `Example`.
+ Now that we have defined the `Example` class, we can use it to create new _objects_ and save them to variables! These objects belong to a new, custom data type called `Example`. _Objects_ represent a living piece of data. You can modify their properties and call functions on them.
  
  To create a new object, we put the class name followed by parentheses. This calls the _default initializer_ (that `init()` block of code that looks like a function). _Initializers_ are used to set the values of all the variables associated with a class. As you can see above, it sets `myVariable` to `"Make School learns Object-Oriented Programming!"`.
  
