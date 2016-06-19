@@ -28,8 +28,8 @@ class AnotherExampleClass {
  
  The code below prints the following result. Can you explain why?
  
-     What does your counter say? 8999
-     That can't be! It says it's... 9000
+     What does your counter say? 9000!
+     That can't be! It says it's... 9001!
  
  */
 let instanceOne = AnotherExampleClass(message: "What does your counter say?")
