@@ -114,7 +114,7 @@ AnotherExampleObject.myVariable
  
  and the `myVariable` for _that particular instance_ of `AnotherExample` will be set to `"Woah! OOP is pretty powerful!"`.
  
- - important: Every parameter passed into an intializer needs a parameter label by default! This is different from functions which skip the first parameter label!
+ - important: Every parameter passed into an intializer needs a parameter label by default! This is different from functions which skip the first parameter label! Look at the line above, `value` is the only parameter but it needs a label when you call it.
  
  - note: `AnotherExample`'s `myVariable` was declared with `let`, not `var`. You will not be able to update it on any instance of `AnotherExample` like you can on instances of `Example`!
  
