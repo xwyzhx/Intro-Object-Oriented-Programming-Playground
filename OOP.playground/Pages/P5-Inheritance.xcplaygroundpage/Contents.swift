@@ -72,9 +72,9 @@ let superclassInstance = ExampleSuperclass(message: "Hello Make School student."
 let subclassInstance = ExampleSubclass(message: "Hi there Make School student. Want to hear a secret?")
 /*:
  
- Next: the `super.init()` call in `MySubclass`'s initializer! The `super` keyword will go up one step in the inheritance tree, letting `ExampleSubclass` access methods written for `ExampleSuperclass`. Here, the superclass initializer is called, setting `message` to `"Hi there Make School student. Want to hear a secret?"`.
+ Next: the `super.init()` call in `ExampleSubclass`'s initializer! The `super` keyword will go up one step in the inheritance tree, letting `ExampleSubclass` access methods written for `ExampleSuperclass`. Here, the superclass initializer is called, setting `message` to `"Hi there Make School student. Want to hear a secret?"`.
  
- Lastly: the `override` keyword. As the name suggests, this lets you _override_ (or redefine) a method in the superclass of the same name. In this case, `MySuperclass`'s `doStuff()` method prints out `message`'s value. `MySubclass` augments this behavior by printing out the value of `myColor`, _as well as_ executing `MySuperclass`'s default behavior, by calling `super.doStuff()`. Overriding an initializer similarly takes over the initializer of the superclass – but in this case, you are required to call `super.init()` at some point in the init function.
+ Lastly: the `override` keyword. As the name suggests, this lets you _override_ (or redefine) a method in the superclass of the same name. In this case, `ExampleSuperclass`'s `doStuff()` method prints out `message`'s value. `ExampleSubclass` augments this behavior by printing out the value of `mySecretMessage`, _as well as_ executing `ExampleSuperclass`'s default behavior, by calling `super.doStuff()`. Overriding an initializer similarly takes over the initializer of the superclass – but in this case, you are required to call `super.init()` at some point in the init function.
  
  - callout(Try it out!): Add calls to the `doStuff` function on both `superclassInstance` and `subclassInstance` in the space below. What do you expect them to output?
  
