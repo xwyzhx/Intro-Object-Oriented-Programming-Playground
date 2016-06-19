@@ -1,6 +1,5 @@
-//: [Previous](@previous)
 /*:
- 
+ ![Make School Banner](./swift_banner.png)
  # Introduction to Classes
  
  Your friend Zoe, the zookeeper, has seen the code you wrote, and thinks it could help her. She says that the eat function you wrote in Problem 2 perfectly describes tigers. Let's write a small program to help Zoe keep track of her tigers and their eating and sleeping habits. This time we'll make a `Tiger` class! But first, let's talk about what classes and objects are...
@@ -166,4 +165,4 @@ tigger.eat("kibble")
  Copy your `Tiger` class so you can use it in the next section.
 
  */
-//: [Next](@next)
+//: [Previous](@pr

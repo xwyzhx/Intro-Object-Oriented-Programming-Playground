@@ -1,6 +1,5 @@
-//: [Previous](@previous)
 /*:
- 
+ ![Make School Banner](./swift_banner.png)
  # Inheritance
  
  Zoe got promoted AGAIN! She just found out that she's getting assigned three more animals tomorrow: Giraffes, Bees, and... Unicorns! What kind of petting zoo is this, anyways?!
@@ -155,4 +154,4 @@ class Bear: Animal {
 //pooh.eat("fish")
 //pooh.eat("meat")
 
-//: [Next](@next)
+//: [Previous](@pr

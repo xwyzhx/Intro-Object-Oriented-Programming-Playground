@@ -1,6 +1,5 @@
-//: [Previous](@previous)
 /*:
- 
+ ![Make School Banner](./swift_banner.png)
  # Favorite Foods
  
  Great! Now, you'll write another function and use an if-statement. We'll also use a variable to keep track of a `Tiger`'s favorite food. The variable is named `favoriteFood` and is already set up for you in the starter code below.
@@ -39,4 +38,4 @@ func eat(name: String, food: String) {
 eat("Tigger", food: "meat")
 eat("Tigger", food: "kibble")
 
-//: [Next](@next)
+//: [Previous](@pr

@@ -1,5 +1,5 @@
-//: [Previous](@previous)
 /*:
+ ![Make School Banner](./swift_banner.png)
  # Even more animals!
  
  Today is the day! Zoe now keeps track of giraffes, bees, AND unicorns, so she needs 3 more classes of animals added to the program. Luckily, we're prepared because we have a general Animal class with typical animal behaviors.
@@ -132,4 +132,4 @@ class Bee: Animal {
 
 
 
-//: [Next](@next)
+//: [Previous](@pr

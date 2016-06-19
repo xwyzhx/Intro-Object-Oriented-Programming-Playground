@@ -1,5 +1,5 @@
-//: [Previous](@previous)
 /*:
+ ![Make School Banner](./swift_banner.png)
  # An automatic Zookeeper
  
  Zoe went in to pet the bees on her lunch break and nobody has seen her since! The animals haven't been fed, and they're getting hungry. Let's make your program more useful so that it can help any zookeeper keep track of all the animals they feed each day.
@@ -105,4 +105,4 @@ let animals: [Animal] = [
 let zookeeper = Zookeeper(name: "ZoeBot")
 zookeeper.feedAnimals(animals, food: "meat")
 
-//: [Next](@next)
+//: [Previous](@pr

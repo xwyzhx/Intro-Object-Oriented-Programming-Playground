@@ -1,6 +1,5 @@
-//: [Previous](@previous)
 /*:
- 
+ ![Make School Banner](./swift_banner.png)
  # A wild bear appears!
  
  Zoe says your program is really helping her keep track of the tigers! As a result, Zoe has been promoted at the zoo. She's now in charge of tigers and bears, which means your program now needs to describe bear behaviors as well!
@@ -53,4 +52,4 @@ class Bear {
 
 
 
-//: [Next](@next)
+//: [Previous](@pr

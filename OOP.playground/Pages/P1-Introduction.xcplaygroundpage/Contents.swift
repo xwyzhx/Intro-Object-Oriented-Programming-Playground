@@ -1,5 +1,5 @@
 /*:
- 
+ ![Make School Banner](./swift_banner.png)
  # Object-Oriented Programming: An Introduction
  
  In this tutorial, we're going to learn about _Object-Oriented Programming_ in Swift. What is that? It's a _programming paradigm_ based on the concept of "objects" – things that contain data, and methods that perform operations on those data.
