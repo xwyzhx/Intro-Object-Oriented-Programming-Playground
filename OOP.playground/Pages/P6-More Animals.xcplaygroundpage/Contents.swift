@@ -87,7 +87,7 @@ class Giraffe: Animal {
 
  # Bees
 
- - callout(Challenge): Implement the `Bee` class as a subclass of `Animal`. Bees only eat pollen and will complain in the same way as giraffes if you feed a `Bee` anything other than `"pollen"` _and then call `sleep`_. Additionally, bees never sleep, so if you call the `sleep` method on the Bee class, it should print `"<name> never sleeps"` instead of the standard sleep behavior.
+ - callout(Challenge): Implement the `Bee` class as a subclass of `Animal`. Bees only eat pollen. If they are fed pollen _then print "YUM!!! <name> wants more pollen" call `sleep`_. If fed anything else, the bee will complain in the same way as giraffes do. Additionally, bees never sleep, so if you call the `sleep` method on the Bee class, it should print `"<name> never sleeps"` instead of the standard sleep behavior.
  */
 
 // Implement the Bee class here as a subclass of Animal
