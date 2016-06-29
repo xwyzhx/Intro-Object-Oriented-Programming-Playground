@@ -45,7 +45,7 @@ class Bear: Animal {
  */
 
 // Implement the Unicorn class here as a subclass of Animal
-// Hint: Implement the initializer method and override the eat method
+// Hint: Implement the initializer method and override the sleep method
 class Unicorn: Animal {
 
     init(name: String) {
