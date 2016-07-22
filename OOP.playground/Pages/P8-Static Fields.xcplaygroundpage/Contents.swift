@@ -63,9 +63,12 @@ let instanceThree = CrushingExampleClass(message: "WHAT! NO! It's now...")
  
  # Back to the animals
  
- Now that you know how to use type properties, let's use them to count our `Animal` population. Add a type property `population` to the `Animal` class that counts how many instances of Animal have been created. Keeping track of this will require incrementing the count in the initializer method each time a new `Animal` object is initialized. To make the count accessible, add a type method `populationCount` that simply returns the value of population.
+ Now that you know how to use type properties, let's use them to count our `Animal` population.
  
- - callout(Challenge): Implement the new features on the Animal superclass below! Show the total Animal population a line to the top of the `Zookeeper.feedAnimals` method to print `"<name> is feeding <food> to <number of animals feeding> of <population> total animals"`.
+ - callout(Challenge): Implement the new features on the Animal superclass below!
+    - Add a type property `population` to the `Animal` class that counts how many instances of Animal have been created. Keeping track of this will require incrementing the count in the initializer method each time a new `Animal` object is initialized.
+    - To make the count accessible, add a type method `populationCount` that simply returns the value of population.
+    - Show the total Animal population whenever you call `feedAnimals`. Add a line to the top of the `Zookeeper.feedAnimals` method to print `"<name> is feeding <food> to <number of animals feeding> of <population> total animals"`.
  
  */
 
