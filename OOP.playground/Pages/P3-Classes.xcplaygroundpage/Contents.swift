@@ -11,7 +11,7 @@ class Example {
     var myVariable: String
 
     init() {
-        //self.myVariable = "Make School learns Object-Oriented Programming!"
+        self.myVariable = "Make School learns Object-Oriented Programming!"
     }
 
     func myMethod() {
